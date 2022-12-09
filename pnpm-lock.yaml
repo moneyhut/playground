@@ -12,6 +12,7 @@ specifiers:
   '@storybook/html-vite': 7.0.0-beta.2
   '@storybook/jest': 0.0.10
   '@storybook/testing-library': 0.0.13
+  cross-env: 7.0.3
   ignore-sync: 6.0.2
   react: 18.2.0
   react-dom: 18.2.0
@@ -41,6 +42,7 @@ devDependencies:
   '@storybook/html-vite': 7.0.0-beta.2_o4scbtliisanygemawej7x2d6i
   '@storybook/jest': 0.0.10_biqbaboplfbrettd7655fr4n2y
   '@storybook/testing-library': 0.0.13_biqbaboplfbrettd7655fr4n2y
+  cross-env: 7.0.3
   ignore-sync: 6.0.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -4217,6 +4219,14 @@ packages:
   /cron-schedule/3.0.6:
     resolution: {integrity: sha512-izfGgKyzzIyLaeb1EtZ3KbglkS6AKp9cv7LxmiyoOu+fXfol1tQDC0Cof0enVZGNtudTHW+3lfuW9ZkLQss4Wg==}
     dev: false
+
+  /cross-env/7.0.3:
+    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
+    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+    dev: true
 
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
