@@ -19,7 +19,7 @@ const config: StorybookConfig = {
     },
     docs: {
         enabled: true
-    }
+    },
 }
 
 export default config;

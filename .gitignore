@@ -294,3 +294,6 @@ fabric.properties
 .idea/
 .vscode/
 .fleet/
+.solid/
+dist/
+storybook-static/

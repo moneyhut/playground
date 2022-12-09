@@ -10,3 +10,6 @@ Global/JetBrains.gitignore
 .idea/
 .vscode/
 .fleet/
+.solid/
+dist/
+storybook-static/
