@@ -1,0 +1,21 @@
+{
+  "name": "@moneyhut/playground",
+  "type": "module",
+  "packageManager": "pnpm@7.18.1",
+  "engines": {
+    "node": "18.12.1",
+    "pnpm": "7.18.1",
+    "npm": "use pnpm",
+    "yarn": "use pnpm"
+  },
+  "scripts": {
+    "postinstall": "ignore-sync ."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ignore-sync": "6.0.2",
+    "typescript": "4.9.4",
+    "vite":"4.0.0"
+  }
+}
