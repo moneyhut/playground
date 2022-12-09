@@ -1,0 +1,15 @@
+[github/gitignore]
+Node.gitignore
+Global/macOS.gitignore
+Global/Windows.gitignore
+Global/Linux.gitignore
+Global/VisualStudioCode.gitignore
+Global/JetBrains.gitignore
+
+[inline]
+.idea/
+.vscode/
+.fleet/
+.solid/
+dist/
+storybook-static/
